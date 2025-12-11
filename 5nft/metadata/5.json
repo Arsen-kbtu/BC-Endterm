@@ -1,0 +1,27 @@
+{
+  "name": "Graduate Certificate #5",
+  "description": "Certificate of Completion for Artificial Intelligence Program",
+  "image": "ipfs://bafkreify36k477hnb4hjbdbqheyrnfvi4iyy3fp5b37buwpbphpqdqaspy",
+  "attributes": [
+    {
+      "trait_type": "Graduate Name",
+      "value": "Madina Askhat"
+    },
+    {
+      "trait_type": "Program",
+      "value": "Artificial Intelligence"
+    },
+    {
+      "trait_type": "Grade",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2025"
+    },
+    {
+      "trait_type": "Certificate Type",
+      "value": "Master's Degree"
+    }
+  ]
+}

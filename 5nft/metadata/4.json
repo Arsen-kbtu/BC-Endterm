@@ -1,0 +1,27 @@
+{
+  "name": "Graduate Certificate #4",
+  "description": "Certificate of Completion for Cybersecurity Program",
+  "image": "ipfs://bafkreib2l6bmvj726pfaamjszp2pfvxtm2s52yfmao6q7ax3aip64ysfo4",
+  "attributes": [
+    {
+      "trait_type": "Graduate Name",
+      "value": "Arman Bekzat"
+    },
+    {
+      "trait_type": "Program",
+      "value": "Cybersecurity"
+    },
+    {
+      "trait_type": "Grade",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2025"
+    },
+    {
+      "trait_type": "Certificate Type",
+      "value": "Bachelor's Degree"
+    }
+  ]
+}

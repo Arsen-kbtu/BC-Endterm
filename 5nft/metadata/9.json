@@ -1,0 +1,27 @@
+{
+  "name": "Graduate Certificate #9",
+  "description": "Certificate of Completion for Mobile Development Program",
+  "image": "ipfs://bafkreihxanggxhhw2kcozh3uojfewx3y7boqk6wikxnfmjsqvbzqckhaem",
+  "attributes": [
+    {
+      "trait_type": "Graduate Name",
+      "value": "Aliya Kanat"
+    },
+    {
+      "trait_type": "Program",
+      "value": "Mobile Development"
+    },
+    {
+      "trait_type": "Grade",
+      "value": "A-"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2025"
+    },
+    {
+      "trait_type": "Certificate Type",
+      "value": "Bachelor's Degree"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graduate Certificate NFT Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>🎓 Graduate Certificate NFT Gallery</h1>
+            <p class="subtitle">Blockchain-Verified Educational Credentials</p>
+        </header>
+
+        <!-- Wallet Connection -->
+        <div class="wallet-section">
+            <button id="connectWallet" class="btn-primary">Connect Wallet</button>
+            <div id="walletInfo" class="wallet-info hidden">
+                <p>Connected: <span id="walletAddress"></span></p>
+                <p>Your Certificates: <span id="userTokenCount">0</span></p>
+            </div>
+        </div>
+
+        <!-- Search and Filter Section -->
+        <div class="filter-section">
+            <div class="search-container">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="Search by name, program, or grade..."
+                    class="search-input"
+                >
+                <button id="searchBtn" class="btn-secondary">Search</button>
+            </div>
+
+            <div class="filter-controls">
+                <div class="filter-group">
+                    <label for="programFilter">Program:</label>
+                    <select id="programFilter" class="filter-select">
+                        <option value="">All Programs</option>
+                        <option value="Computer Science">Computer Science</option>
+                        <option value="Software Engineering">Software Engineering</option>
+                        <option value="Information Systems">Information Systems</option>
+                        <option value="Data Science">Data Science</option>
+                        <option value="Cybersecurity">Cybersecurity</option>
+                        <option value="Artificial Intelligence">Artificial Intelligence</option>
+                        <option value="Web Development">Web Development</option>
+                        <option value="Blockchain Development">Blockchain Development</option>
+                        <option value="Cloud Computing">Cloud Computing</option>
+                        <option value="Mobile Development">Mobile Development</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="gradeFilter">Grade:</label>
+                    <select id="gradeFilter" class="filter-select">
+                        <option value="">All Grades</option>
+                        <option value="A+">A+</option>
+                        <option value="A">A</option>
+                        <option value="A-">A-</option>
+                        <option value="B+">B+</option>
+                        <option value="B">B</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="typeFilter">Certificate Type:</label>
+                    <select id="typeFilter" class="filter-select">
+                        <option value="">All Types</option>
+                        <option value="Bachelor's Degree">Bachelor's Degree</option>
+                        <option value="Master's Degree">Master's Degree</option>
+                    </select>
+                </div>
+
+                <button id="resetFilters" class="btn-reset">Reset Filters</button>
+            </div>
+        </div>
+
+        <!-- Statistics -->
+        <div class="stats-section">
+            <div class="stat-card">
+                <h3 id="totalSupply">0</h3>
+                <p>Total Certificates</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="filteredCount">0</h3>
+                <p>Matching Results</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="maxSupply">1000</h3>
+                <p>Maximum Supply</p>
+            </div>
+        </div>
+
+        <!-- Debug Section -->
+        <div style="text-align: center; margin: 20px 0;">
+            <button id="debugBtn" class="btn-secondary" style="margin: 0 10px;">🔍 Check Console</button>
+            <button id="reloadBtn" class="btn-secondary" style="margin: 0 10px;">🔄 Reload NFTs</button>
+        </div>
+
+        <!-- Loading Indicator -->
+        <div id="loadingIndicator" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Loading certificates...</p>
+        </div>
+
+        <!-- NFT Gallery Grid -->
+        <div class="gallery-container">
+            <div id="nftGallery" class="gallery-grid">
+                <!-- NFT cards will be dynamically inserted here -->
+            </div>
+            <div id="noResults" class="no-results hidden">
+                <p>No certificates found matching your criteria.</p>
+            </div>
+        </div>
+
+        <!-- Mint Section -->
+        <div class="mint-section">
+            <h2>Mint Your Certificate</h2>
+            <p>Cost: 0.001 ETH</p>
+            <button id="mintBtn" class="btn-primary" disabled>Mint Certificate</button>
+        </div>
+    </div>
+
+    <!-- Modal for NFT Details -->
+    <div id="nftModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody">
+                <!-- NFT details will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

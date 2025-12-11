@@ -1,0 +1,27 @@
+{
+  "name": "Graduate Certificate #6",
+  "description": "Certificate of Completion for Web Development Program",
+  "image": "ipfs://bafkreihwq23wyoxzt7xd2hxlidsf4m6uyxfxtzmntlt326qup3y6arzxc4",
+  "attributes": [
+    {
+      "trait_type": "Graduate Name",
+      "value": "Nurbol Almas"
+    },
+    {
+      "trait_type": "Program",
+      "value": "Web Development"
+    },
+    {
+      "trait_type": "Grade",
+      "value": "B"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2025"
+    },
+    {
+      "trait_type": "Certificate Type",
+      "value": "Bachelor's Degree"
+    }
+  ]
+}

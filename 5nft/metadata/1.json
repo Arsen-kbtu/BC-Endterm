@@ -1,0 +1,27 @@
+{
+  "name": "Graduate Certificate #1",
+  "description": "Certificate of Completion for Software Engineering Program",
+  "image": "ipfs://bafkreigdc7ymxmw4pwy56libon2dsge3rjy6vdiqeyjq5qtvxy7tiedxmq",
+  "attributes": [
+    {
+      "trait_type": "Graduate Name",
+      "value": "Kamila Nurlan"
+    },
+    {
+      "trait_type": "Program",
+      "value": "Software Engineering"
+    },
+    {
+      "trait_type": "Grade",
+      "value": "A+"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2025"
+    },
+    {
+      "trait_type": "Certificate Type",
+      "value": "Bachelor's Degree"
+    }
+  ]
+}

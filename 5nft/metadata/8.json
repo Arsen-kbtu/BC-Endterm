@@ -1,0 +1,27 @@
+{
+  "name": "Graduate Certificate #8",
+  "description": "Certificate of Completion for Cloud Computing Program",
+  "image": "ipfs://bafkreibo6oi3lh73owlbmm5rnbb3bqmlg44ckd4p5p6vxbbxjcq5fwkdhy",
+  "attributes": [
+    {
+      "trait_type": "Graduate Name",
+      "value": "Timur Bauyrzhan"
+    },
+    {
+      "trait_type": "Program",
+      "value": "Cloud Computing"
+    },
+    {
+      "trait_type": "Grade",
+      "value": "B+"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2025"
+    },
+    {
+      "trait_type": "Certificate Type",
+      "value": "Bachelor's Degree"
+    }
+  ]
+}

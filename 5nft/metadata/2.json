@@ -1,0 +1,27 @@
+{
+  "name": "Graduate Certificate #2",
+  "description": "Certificate of Completion for Information Systems Program",
+  "image": "ipfs://bafkreibs2gmkcgrxmlbqlub35bbnykrwewomz5vub5t5h67oyj2rc2hm4i",
+  "attributes": [
+    {
+      "trait_type": "Graduate Name",
+      "value": "Dias Yermek"
+    },
+    {
+      "trait_type": "Program",
+      "value": "Information Systems"
+    },
+    {
+      "trait_type": "Grade",
+      "value": "B+"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2025"
+    },
+    {
+      "trait_type": "Certificate Type",
+      "value": "Bachelor's Degree"
+    }
+  ]
+}

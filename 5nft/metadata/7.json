@@ -1,0 +1,27 @@
+{
+  "name": "Graduate Certificate #7",
+  "description": "Certificate of Completion for Blockchain Development Program",
+  "image": "ipfs://bafkreic672vve6jkzdupnozx2ydyaure27cewvdjja53blj67iqkgpfcni",
+  "attributes": [
+    {
+      "trait_type": "Graduate Name",
+      "value": "Zarina Dauren"
+    },
+    {
+      "trait_type": "Program",
+      "value": "Blockchain Development"
+    },
+    {
+      "trait_type": "Grade",
+      "value": "A"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2025"
+    },
+    {
+      "trait_type": "Certificate Type",
+      "value": "Master's Degree"
+    }
+  ]
+}

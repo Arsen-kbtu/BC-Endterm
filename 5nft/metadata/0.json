@@ -1,0 +1,27 @@
+{
+  "name": "Graduate Certificate #0",
+  "description": "Certificate of Completion for Computer Science Program",
+  "image": "ipfs://bafkreigq64dgwlqzqb2mtqqtalbqi6csirr36kfor4ncsmkzpkssx33nqu",
+  "attributes": [
+    {
+      "trait_type": "Graduate Name",
+      "value": "Aibek Zhandos"
+    },
+    {
+      "trait_type": "Program",
+      "value": "Computer Science"
+    },
+    {
+      "trait_type": "Grade",
+      "value": "A"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2025"
+    },
+    {
+      "trait_type": "Certificate Type",
+      "value": "Bachelor's Degree"
+    }
+  ]
+}

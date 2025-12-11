@@ -1,0 +1,27 @@
+{
+  "name": "Graduate Certificate #3",
+  "description": "Certificate of Completion for Data Science Program",
+  "image": "ipfs://bafkreigiqxeo5kj3ir3ganelv7zkzyrtkbrjqhkosa4yjgabwup6i76o64",
+  "attributes": [
+    {
+      "trait_type": "Graduate Name",
+      "value": "Aigerim Serik"
+    },
+    {
+      "trait_type": "Program",
+      "value": "Data Science"
+    },
+    {
+      "trait_type": "Grade",
+      "value": "A"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2025"
+    },
+    {
+      "trait_type": "Certificate Type",
+      "value": "Master's Degree"
+    }
+  ]
+}
