@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>rps game</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Ethers.js library for blockchain interaction -->
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>🎮 Rock Paper Scissors 🎮</h1>
+            <p class="subtitle">Blockchain Edition</p>
+        </header>
+
+        <div class="wallet-section">
+            <button id="connectBtn" class="connect-btn">Connect Wallet</button>
+            <p id="wallet-address" class="wallet-info"></p>
+        </div>
+
+        <div class="game-info">
+            <div class="info-card">
+                <span class="info-label">Contract Balance:</span>
+                <span id="contract-balance" class="info-value">0 BNB</span>
+            </div>
+            <div class="info-card">
+                <span class="info-label">Your Balance:</span>
+                <span id="user-balance" class="info-value">0 BNB</span>
+            </div>
+        </div>
+
+        <div class="bet-section">
+            <label for="bet-amount" class="bet-label">Your Bet:</label>
+            <div class="bet-controls">
+                <input type="number" id="bet-amount" step="0.001" min="0.001" value="0.01" />
+                <span class="bet-unit">BNB</span>
+                <button id="max-bet-btn" class="max-btn">MAX</button>
+            </div>
+            <p id="bet-info" class="bet-info">Min: 0.001 BNB | Max: 0 BNB</p>
+        </div>
+
+        <div class="score-board">
+            <div id="user-label" class="badge">you</div>
+            <div id="computer-label" class="badge">contract</div>
+            <span id="user-score">0</span>:<span id="computer-score">0</span>
+        </div>
+
+        <div class="result"> 
+            <p>Connect your wallet to start playing!</p>
+        </div>
+
+        <div class="choices">
+            <div class="choice" id="r" title="Rock">
+                <img src="images/rock.png" alt="Rock">
+                <span class="choice-label">Rock</span>
+            </div>
+
+            <div class="choice" id="p" title="Paper">
+                <img src="images/paper.png" alt="Paper">
+                <span class="choice-label">Paper</span>
+            </div>
+
+            <div class="choice" id="s" title="Scissors">
+                <img src="images/scissors.png" alt="Scissors">
+                <span class="choice-label">Scissors</span>
+            </div>
+        </div>
+
+        <p id="action-msg">Connect your wallet and make your bet!</p>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="app.js" charset="utf-8"></script>
+
+</body>
+
+</html>
