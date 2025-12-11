@@ -192,7 +192,11 @@ async function game(userChoice) {
         const moveEnum = convertToMove(userChoice);
         
         // Call play() function on smart contract with user's bet amount
-        const tx = await contract.play(moveEnum, { value: betAmount });
+        // Manually setting gasLimit to 500,000 to prevent "Out of Gas" errors
+        const tx = await contract.play(moveEnum, { 
+            value: betAmount,
+            gasLimit: 500000 
+        });
         
         result_p.innerHTML = '⏳ Transaction sent! Waiting for confirmation...';
         
